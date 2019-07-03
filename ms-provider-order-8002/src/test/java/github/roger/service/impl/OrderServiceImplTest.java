@@ -1,7 +1,6 @@
 package github.roger.service.impl;
 
 import github.roger.BaseSpringTestSuit;
-import github.roger.entity.Order;
 import github.roger.service.OrderService;
 import github.roger.vo.OrderVo;
 import org.junit.Test;
