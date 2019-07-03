@@ -19,8 +19,8 @@ import java.util.List;
 @FeignClient(name = "ms-provider-order",path = "/order")
 public interface OrderApi {
 
-    @RequestMapping("/queryOrdersByUserId/{userId}")
-    List<OrderVo> queryOrdersByUserId(@PathVariable("userId") Integer userId);
+    @RequestMapping("/queryOrderListByUserId/{userId}")
+    List<OrderVo> queryOrderListByUserId(@PathVariable("userId") Integer userId);
 
     @RequestMapping("/getRegisterInfo")
     String getRegisterInfo();
